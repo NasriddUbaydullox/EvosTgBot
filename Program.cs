@@ -17,7 +17,7 @@ namespace Evos_Bot
         public static UserInfo user = new UserInfo();
         static void Main(string[] args)
         {
-            var token = "7650716045:AAGpKGui2_-qyH9zPvVxnE4M_DNHmn0vnBo";
+            var token = "Your Token";
             var bot = new TelegramBotClient(token);
             bot.OnMessage += async (message, Type) =>
             {
